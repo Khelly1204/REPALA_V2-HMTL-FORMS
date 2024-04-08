@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div id="dropdown">
+        <button class="dropdown-toggle">
+            <span>Menu</span>
+            <i class="fa-solid fa-caret-down"></i>
+        </button>
+        <ul class="menu">
+            <li class="menu-item"><a href="#">Italian</a></li>
+            <li class="menu-item"><a href="#">Chinese</a></li>
+            <li class="menu-item dropdown">
+                <a href="#" class="submenu-toggle">
+                    <span>Healthy Options</span>
+                    <i class="fa-solid fa-caret-right"></i>
+                </a>
+                <ul class="submenu">
+                    <li class="submenu-item"><a href="#">Vegetarian</a></li>
+                    <li class="submenu-item"><a href="#">Vegan</a></li>
+                    <li class="submenu-item"><a href="#">Gluten-Free</a></li>
+                </ul>
+            </li>
+            <li class="menu-item"><a href="#">Mexican</a></li>
+            <li class="menu-item dropdown">
+                <a href="#" class="submenu-toggle">
+                    <span>Specials</span>
+                    <i class="fa-solid fa-caret-right"></i>
+                </a>
+                <ul class="submenu">
+                    <li class="submenu-item"><a href="#">Canabis Infused</a></li>
+                    <li class="submenu-item"><a href="#">Exotic Meats</a></li>
+                    <li class="submenu-item"><a href="#">HUMAN</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    
+        <script src='script.js'></script>
+</body>
+</html>
